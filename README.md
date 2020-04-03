@@ -4,18 +4,18 @@ a script to compile GAMESS [1] on macOS catalina
 
 Installation
 
-0. prerequisties
+# prerequisties
 macports
 
-1. checkout
+# checkout
 
 git clone git clone https://github.com/nakatamaho/gamess-macos
 
-2. source code
+# source code
 
 place 20190930.R2 version of gamess-current.tar.gz to 20190930.R2
 
-3. adjust directories and settings
+# adjust directories and settings
 
 edit and adjust install_gamess.sh for your environment
 
