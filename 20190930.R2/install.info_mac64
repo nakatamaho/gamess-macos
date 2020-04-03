@@ -1,0 +1,25 @@
+#!/bin/csh
+
+setenv GMS_PATH            %%GAMESS_BUILD_DIR%%/gamess
+setenv GMS_BUILD_DIR       %%GAMESS_BUILD_DIR%%/gamess
+ 
+setenv GMS_TARGET          mac64
+setenv GMS_MAC_OSX_VERNO   10.15
+
+setenv GMS_FORTRAN         %%FORTRAN%%
+setenv GMS_GFORTRAN_VERNO  %%GFORTRANVERSION%%
+
+setenv GMS_MATHLIB         openblas
+setenv GMS_MATHLIB_PATH    /opt/local/lib/
+
+setenv GMS_DDI_COMM        sockets
+setenv GMS_MSUCC           false 
+setenv GMS_LIBCCHEM        false
+setenv GMS_PHI             none
+setenv GMS_SHMTYPE         posix
+setenv GMS_OPENMP          %%OPENMP%%
+ 
+setenv GMS_CONTAINER       
+setenv GMS_CONTAINER_PATH  %%GAMESS_BUILD_DIR%%/gamess
+
+setenv GMS_FPE_FLAGS       ''     
